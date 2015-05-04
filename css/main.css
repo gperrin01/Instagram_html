@@ -3,15 +3,36 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+
+/*Start with everything in the header*/
 header {
-  background-color: #06365f;
-  display: inline;
+  background-color: #1c5380;
+  height: 200px;
 }
-header * {
-  
+header section{
+  margin-left: 550px;
+  padding-top: 50px;
+}
+header img {
+  display: inline-block;
+}
+#login_button {
+  height: 40px;
+  width: 100px;
+  border: 1px solid #06365f;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+/*not centered in the box, not in ine with the block*/
 }
 
+/*Now main*/
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+
+
+
+/*Now footer*/
