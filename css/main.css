@@ -8,6 +8,7 @@ light blue: #1c5380
 .place_on_the_right{
   margin-left: 500px;
   margin-right: 130px;
+  display: inline-block;
 }
 
 /*Start with everything in the header*/
@@ -39,7 +40,14 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.big_box {
+  display: inline-block;
+}
+.column_left {
+  display: inline.block;
+}
 .main_frame {
+  display: inline-block;
   background-image: url(../images/frame.png);
   background-repeat: no-repeat;
   height: 284px;
@@ -51,7 +59,7 @@ body {
 h1 {
   color: #06365f; 
 }
-main section div {
+.box_logo_pay {
   margin-top: 30px;
 }
 
